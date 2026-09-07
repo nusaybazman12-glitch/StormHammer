@@ -1,7 +1,7 @@
 {
   "name": "loadtest",
-  "version": "1.0.0",
-  "description": "Advanced website load testing tool for Layer 7 performance analysis",
+  "version": "2.0.0",
+  "description": "Advanced website load testing tool for performance analysis",
   "main": "loadtester.js",
   "scripts": {
     "start": "node loadtester.js",
@@ -11,9 +11,9 @@
     "load-testing",
     "performance",
     "stress-test",
-    "cybersecurity",
     "http",
-    "https"
+    "https",
+    "benchmark"
   ],
   "author": "Your Name",
   "license": "MIT",
@@ -22,6 +22,8 @@
     "commander": "^11.1.0",
     "https-proxy-agent": "^7.0.2",
     "chalk": "^4.1.2",
-    "cli-progress": "^3.12.0"
+    "cli-progress": "^3.12.0",
+    "cluster": "^0.7.7",
+    "os": "^0.1.2"
   }
 }
