@@ -1,0 +1,6 @@
+# This project uses Node.js with npm for dependency management.
+# All dependencies are specified in package.json.
+# To install, run: npm install
+
+# Node.js version required: v16.0.0 or higher
+# For production deployment, use: npm install --production
